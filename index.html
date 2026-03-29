@@ -65,7 +65,7 @@
     .logo{display:flex;align-items:center;gap:15px;font-family:var(--serif);font-size:1.5rem;font-weight:700;letter-spacing:2px;position:relative;}
     .logo::before{content:'';position:absolute;inset:-10px;background:radial-gradient(circle, var(--cyan) 0%, transparent 70%);opacity:0;transition:opacity 0.3s;z-index:-1;}
     .logo:hover::before{opacity:0.3;}
-   .logo-mark{width:90px;height:90px;object-fit:contain;filter:drop-shadow(0 0 20px rgba(255,215,0,0.4));animation:logoGlow 3s ease-in-out infinite;}
+   .logo-mark{width:90px;height:80px;object-fit:contain;filter:drop-shadow(0 0 20px rgba(255,215,0,0.4));animation:logoGlow 3s ease-in-out infinite;}
     @keyframes logoGlow{0%,100%{filter:drop-shadow(0 0 20px rgba(255,215,0,0.4));}50%{filter:drop-shadow(0 0 35px rgba(255,42,109,0.6));}}
     .nav-links{display:flex;gap:40px;list-style:none;}
     .nav-links a{color:var(--text-secondary);text-decoration:none;font-size:0.85rem;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;position:relative;padding:5px 0;transition:color 0.3s;}
